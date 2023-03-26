@@ -1,0 +1,40 @@
+.cart {
+  background: url(../Home/stat-bg.jpg) no-repeat center center/ cover;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.order-title {
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  background: #19398a;
+  box-shadow: 1px 1px 10px black;
+  color: white;
+  text-align: center;
+}
+.orders {
+  overflow: hidden auto;
+  height: 80%;
+}
+
+.total {
+  background: rgb(34, 43, 121);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 120px;
+  color: white;
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+.total button {
+  width: 100%;
+  position: relative;
+  bottom: -17px;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
