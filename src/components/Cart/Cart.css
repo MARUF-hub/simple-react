@@ -15,6 +15,7 @@
 .orders {
   overflow: hidden auto;
   height: 80%;
+  padding-bottom: 40px;
 }
 
 .total {
